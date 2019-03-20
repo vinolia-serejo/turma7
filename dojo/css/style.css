@@ -1,0 +1,90 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 3px 4px -2px rgba(0, 0, 0, 0.15);
+}
+
+.navegacao__logo {
+    width: 100px;
+    margin: 10px;
+}
+
+.botaonave {
+    background-color: #771277;
+    border: none;
+    border-radius: 3%;
+    color: white;
+    padding: 15px 10px;
+}
+
+.botaoart {
+    background-color: #FF033C;
+    border:none;
+    border-radius: 3%;
+    color: white;
+    padding: 15px 10px;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.header {
+    width: 500px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigo {
+    width: 500px;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.testemunhos {
+    display: flex;
+
+}
+
+.testemunhos__meninas {
+    width: 300px;
+    padding: 0 20px;
+}
+
+.alunas {
+    text-transform: uppercase;
+}
+.rodape {
+    background-color: #FF033C;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
